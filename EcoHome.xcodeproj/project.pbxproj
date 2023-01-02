@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33619E728DDFCEE0093BA79 /* WaterAreaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33619E628DDFCEE0093BA79 /* WaterAreaCard.swift */; };
+		A33619E928DDFFF90093BA79 /* WaterSegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33619E828DDFFF90093BA79 /* WaterSegView.swift */; };
+		A3546CC228D3CC0100565DA1 /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3546CC128D3CC0100565DA1 /* SectionList.swift */; };
+		A3546CC628D3D41C00565DA1 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3546CC528D3D41C00565DA1 /* SectionView.swift */; };
+		A3546CC828D5294F00565DA1 /* ProfileBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3546CC728D5294F00565DA1 /* ProfileBarView.swift */; };
+		A3B6DF8828D804B70075B32B /* WasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B6DF8728D804B70075B32B /* WasteView.swift */; };
+		A3B6DF8A28D804D20075B32B /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B6DF8928D804D20075B32B /* WaterView.swift */; };
+		A3B6DF8C28D804EB0075B32B /* EnergyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B6DF8B28D804EB0075B32B /* EnergyView.swift */; };
+		A3D6EC1F28DB74830095F603 /* WasteCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D6EC1E28DB74830095F603 /* WasteCarousel.swift */; };
+		A3D6EC2528DBCE360095F603 /* HouseAreaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D6EC2428DBCE360095F603 /* HouseAreaCard.swift */; };
+		A3F4164C2962982E00EE314A /* EnergySegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4164B2962982E00EE314A /* EnergySegView.swift */; };
+		A3FCFEFB28D11498007B26FC /* EcoHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFEFA28D11498007B26FC /* EcoHomeApp.swift */; };
+		A3FCFEFD28D11498007B26FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFEFC28D11498007B26FC /* ContentView.swift */; };
+		A3FCFEFF28D1149A007B26FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FCFEFE28D1149A007B26FC /* Assets.xcassets */; };
+		A3FCFF0228D1149A007B26FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FCFF0128D1149A007B26FC /* Preview Assets.xcassets */; };
+		A3FCFF0C28D1159D007B26FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFF0B28D1159D007B26FC /* HomeView.swift */; };
+		A3FCFF0E28D115AF007B26FC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFF0D28D115AF007B26FC /* ProfileView.swift */; };
+		A3FCFF1028D1164A007B26FC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFF0F28D1164A007B26FC /* TabBar.swift */; };
+		A3FCFF1628D12A26007B26FC /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFF1528D12A26007B26FC /* SectionModel.swift */; };
+		A3FCFF1B28D12FD3007B26FC /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCFF1A28D12FD3007B26FC /* SectionCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A33619E628DDFCEE0093BA79 /* WaterAreaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterAreaCard.swift; sourceTree = "<group>"; };
+		A33619E828DDFFF90093BA79 /* WaterSegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSegView.swift; sourceTree = "<group>"; };
+		A3546CC128D3CC0100565DA1 /* SectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
+		A3546CC528D3D41C00565DA1 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		A3546CC728D5294F00565DA1 /* ProfileBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBarView.swift; sourceTree = "<group>"; };
+		A3B6DF8728D804B70075B32B /* WasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteView.swift; sourceTree = "<group>"; };
+		A3B6DF8928D804D20075B32B /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		A3B6DF8B28D804EB0075B32B /* EnergyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyView.swift; sourceTree = "<group>"; };
+		A3D6EC1E28DB74830095F603 /* WasteCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteCarousel.swift; sourceTree = "<group>"; };
+		A3D6EC2428DBCE360095F603 /* HouseAreaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseAreaCard.swift; sourceTree = "<group>"; };
+		A3F4164B2962982E00EE314A /* EnergySegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergySegView.swift; sourceTree = "<group>"; };
+		A3FCFEF728D11498007B26FC /* EcoHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FCFEFA28D11498007B26FC /* EcoHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoHomeApp.swift; sourceTree = "<group>"; };
+		A3FCFEFC28D11498007B26FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3FCFEFE28D1149A007B26FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FCFF0128D1149A007B26FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3FCFF0B28D1159D007B26FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A3FCFF0D28D115AF007B26FC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A3FCFF0F28D1164A007B26FC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A3FCFF1528D12A26007B26FC /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		A3FCFF1A28D12FD3007B26FC /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FCFEF428D11498007B26FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FCFEEE28D11498007B26FC = {
+			isa = PBXGroup;
+			children = (
+				A3FCFEF928D11498007B26FC /* EcoHome */,
+				A3FCFEF828D11498007B26FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FCFEF828D11498007B26FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFEF728D11498007B26FC /* EcoHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FCFEF928D11498007B26FC /* EcoHome */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFF0A28D1150C007B26FC /* Views */,
+				A3FCFF0928D11503007B26FC /* ViewModels */,
+				A3FCFF0828D114FB007B26FC /* Models */,
+				A3FCFEFA28D11498007B26FC /* EcoHomeApp.swift */,
+				A3FCFEFE28D1149A007B26FC /* Assets.xcassets */,
+				A3FCFF0028D1149A007B26FC /* Preview Content */,
+			);
+			path = EcoHome;
+			sourceTree = "<group>";
+		};
+		A3FCFF0028D1149A007B26FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFF0128D1149A007B26FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3FCFF0828D114FB007B26FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFF1528D12A26007B26FC /* SectionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3FCFF0928D11503007B26FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A3FCFF0A28D1150C007B26FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFF1928D12FC1007B26FC /* Details */,
+				A3FCFF1828D12FB3007B26FC /* Components */,
+				A3FCFF1728D12FA2007B26FC /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3FCFF1728D12FA2007B26FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFEFC28D11498007B26FC /* ContentView.swift */,
+				A3FCFF0B28D1159D007B26FC /* HomeView.swift */,
+				A3FCFF0D28D115AF007B26FC /* ProfileView.swift */,
+				A3FCFF0F28D1164A007B26FC /* TabBar.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A3FCFF1828D12FB3007B26FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A3FCFF1A28D12FD3007B26FC /* SectionCard.swift */,
+				A3546CC128D3CC0100565DA1 /* SectionList.swift */,
+				A3546CC728D5294F00565DA1 /* ProfileBarView.swift */,
+				A3D6EC1E28DB74830095F603 /* WasteCarousel.swift */,
+				A3D6EC2428DBCE360095F603 /* HouseAreaCard.swift */,
+				A33619E628DDFCEE0093BA79 /* WaterAreaCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A3FCFF1928D12FC1007B26FC /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				A3546CC528D3D41C00565DA1 /* SectionView.swift */,
+				A3B6DF8B28D804EB0075B32B /* EnergyView.swift */,
+				A3B6DF8728D804B70075B32B /* WasteView.swift */,
+				A3B6DF8928D804D20075B32B /* WaterView.swift */,
+				A33619E828DDFFF90093BA79 /* WaterSegView.swift */,
+				A3F4164B2962982E00EE314A /* EnergySegView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FCFEF628D11498007B26FC /* EcoHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FCFF0528D1149A007B26FC /* Build configuration list for PBXNativeTarget "EcoHome" */;
+			buildPhases = (
+				A3FCFEF328D11498007B26FC /* Sources */,
+				A3FCFEF428D11498007B26FC /* Frameworks */,
+				A3FCFEF528D11498007B26FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoHome;
+			productName = EcoHome;
+			productReference = A3FCFEF728D11498007B26FC /* EcoHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FCFEEF28D11498007B26FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A3FCFEF628D11498007B26FC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = A3FCFEF228D11498007B26FC /* Build configuration list for PBXProject "EcoHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FCFEEE28D11498007B26FC;
+			productRefGroup = A3FCFEF828D11498007B26FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FCFEF628D11498007B26FC /* EcoHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FCFEF528D11498007B26FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FCFF0228D1149A007B26FC /* Preview Assets.xcassets in Resources */,
+				A3FCFEFF28D1149A007B26FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FCFEF328D11498007B26FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D6EC1F28DB74830095F603 /* WasteCarousel.swift in Sources */,
+				A3FCFF0E28D115AF007B26FC /* ProfileView.swift in Sources */,
+				A3FCFF0C28D1159D007B26FC /* HomeView.swift in Sources */,
+				A3546CC828D5294F00565DA1 /* ProfileBarView.swift in Sources */,
+				A3546CC628D3D41C00565DA1 /* SectionView.swift in Sources */,
+				A33619E728DDFCEE0093BA79 /* WaterAreaCard.swift in Sources */,
+				A3B6DF8A28D804D20075B32B /* WaterView.swift in Sources */,
+				A3B6DF8C28D804EB0075B32B /* EnergyView.swift in Sources */,
+				A3F4164C2962982E00EE314A /* EnergySegView.swift in Sources */,
+				A3FCFEFD28D11498007B26FC /* ContentView.swift in Sources */,
+				A3FCFF1B28D12FD3007B26FC /* SectionCard.swift in Sources */,
+				A3FCFEFB28D11498007B26FC /* EcoHomeApp.swift in Sources */,
+				A33619E928DDFFF90093BA79 /* WaterSegView.swift in Sources */,
+				A3546CC228D3CC0100565DA1 /* SectionList.swift in Sources */,
+				A3B6DF8828D804B70075B32B /* WasteView.swift in Sources */,
+				A3D6EC2528DBCE360095F603 /* HouseAreaCard.swift in Sources */,
+				A3FCFF1028D1164A007B26FC /* TabBar.swift in Sources */,
+				A3FCFF1628D12A26007B26FC /* SectionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3FCFF0328D1149A007B26FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3FCFF0428D1149A007B26FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FCFF0628D1149A007B26FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoHome/Preview Content\"";
+				DEVELOPMENT_TEAM = W24PCWY554;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samdavisomekara.EcoHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3FCFF0728D1149A007B26FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoHome/Preview Content\"";
+				DEVELOPMENT_TEAM = W24PCWY554;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samdavisomekara.EcoHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FCFEF228D11498007B26FC /* Build configuration list for PBXProject "EcoHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FCFF0328D1149A007B26FC /* Debug */,
+				A3FCFF0428D1149A007B26FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FCFF0528D1149A007B26FC /* Build configuration list for PBXNativeTarget "EcoHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FCFF0628D1149A007B26FC /* Debug */,
+				A3FCFF0728D1149A007B26FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FCFEEF28D11498007B26FC /* Project object */;
+}
